@@ -1,0 +1,140 @@
+/* cascading style sheets */
+/* css selector */
+
+div.navigation{
+	background-color: #fe7e00;
+	width: 100%;
+}
+
+div.right, div.left, div.right ul, div.right ul li{
+	display: inline-block;
+	box-sizing: border-box;
+
+}
+div.left {
+	padding left: 50px;
+	width:35%;
+	background-color: #fe7e00;
+}
+
+div.right {
+	padding-right: 50px;
+	width: 64%;
+	text-align: right;
+	background-color: #fe7e00;
+	}
+
+div.right ul li{
+	margin:0 15px;
+	color: white;	
+}
+
+.search {
+	padding: 10px 0;
+	width: 25%;
+	margin-left: 75%;
+}
+
+.search input {
+	background-color: lightgrey;
+	font-size: 25px;
+	color: darkgrey;
+	border: none;
+	padding: 15px 75px;
+	margin: 5px;
+	text-align: left;
+	display: block;
+	box-sizing: border-box;
+}
+
+
+
+
+
+div.ctaright, div.ctaleft {
+	display: inline-block;
+	box-sizing: border-box;
+
+}
+
+div.ctaleft img {
+	width: 150%;
+		
+
+}
+
+
+div.ctaleft {
+	padding-left: 50px;
+	width:35%;
+	
+}
+
+div.ctaright {
+	padding-right: 50px;
+	width: 60%;
+	text-align: right;	
+	}
+
+div.ctaright h1{
+	color: #fe7e00;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2.5em;
+	text-align: right;
+}
+
+ h1> span{
+	font-weight: bold;
+}
+
+div.buttons {
+	text-align: right;
+	padding: 10px 0;
+}
+
+.button1 {
+	background-color: #7ccccb;
+	font-size: 25px;
+	color: white;
+	border: none;
+	padding: 15px 20px;
+	margin: 5px;
+	transition: 0.25s ease;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 
+			0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2 {
+	background-color: #fe7e00;
+	font-size: 25px;
+	color: white;
+	border: none;
+	padding: 15px 20px;
+	margin: 5px;
+	transition: 0.25s ease;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 
+			0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover {
+	background-color: black;
+	color: #FFF;
+}
+
+div.footer{
+background-color: #7ccccb;
+height:120px;
+
+}
+#socialMedia {
+	text-align: center;
+	padding: 25px 0 20px 0;
+}
+
+#socialMedia a {
+	border-radius: 2px;
+	color: white;
+	margin: 5px;
+	padding:7px;
+	text-decoration: none;
+	font-size: 30px;
+}
